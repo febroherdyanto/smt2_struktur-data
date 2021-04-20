@@ -1,9 +1,6 @@
 #include <conio.h>
 #include <stdio.h>
 
-//data-data penduduk yang disimpan dalam array struct 1 dimensi (no_ktp, nama, tempat tanggal lahir, RT/RW, Kelurahan, dst)
-
-
 int jumlah;
 char datajumlah;
 
@@ -28,11 +25,11 @@ int main(){
 	printf("=   FEBRO HERDYANTO   =\n");
 	printf("=      312010043      =\n");
 	printf("=      TI.20.B.1      =\n");
-	printf("=======================\n\n");
+	printf("=======================\n");
 	
 	penduduk user[3];
 	for (int i=0; i<3; i++){
-		printf("\n\nInput Data ke-%d",i+1);
+		printf("\nInput Data ke-%d",i+1);
 		printf("\nMasukkan Nomor KTP : "); scanf("%s",&user[i].no_ktp);
 		printf("Masukkan Nama : "); scanf("%s",&user[i].nama);
 		printf("Masukkan Tempat Lahir : "); scanf("%s",&user[i].tempat_lahir);

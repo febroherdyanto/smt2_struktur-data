@@ -5,7 +5,7 @@ struct Mahasiswa{
 	char nim[10];
 	char nama[50];
 	char alamat[200];
-	int no_telp[15];
+	char no_telp[15];
 	char jurusan[25];
 };
 
